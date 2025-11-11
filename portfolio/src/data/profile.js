@@ -14,11 +14,9 @@ const profile = {
       { type: 'Teléfono', value: '+56 9 6372 7980', url: 'tel:+56963727980' }
     ],
     actions: [
-      { label: 'Descargar CV', url: '/CV-nelson-erices.pdf', variant: 'primary' },
+      { label: 'Descargar CV', url: '/CV_Nelson_Erices.pdf', variant: 'primary' },
       { label: 'Conectar en LinkedIn', url: 'https://www.linkedin.com/in/nelson-erices-briones-ab1a5a312/', variant: 'ghost' }
-    ],
-    photo:
-      'https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&w=400&q=80'
+    ]
   },
   profileSummary: {
     professionalProfile:

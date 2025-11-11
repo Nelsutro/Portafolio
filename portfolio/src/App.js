@@ -26,11 +26,12 @@ const TagList = ({ title, items }) => (
 
 function App() {
   const { hero, profileSummary, resume, projects, internship, services, certifications, coverLetter, footer } = profile;
+  const heroHasPhoto = Boolean(hero.photo);
 
   return (
     <div className="app">
       <div className="layout">
-        <header className="hero">
+        <header className={`hero${heroHasPhoto ? '' : ' hero--no-photo'}`}>
           <div className="hero__content">
             <span className="hero__badge">{hero.badge}</span>
             <h1>{hero.name}</h1>
@@ -56,11 +57,13 @@ function App() {
               ))}
             </div>
           </div>
-          <div className="hero__media">
-            <div className="hero__photo-frame">
-              <img src={hero.photo} alt={`Retrato profesional de ${hero.name}`} />
+          {heroHasPhoto && (
+            <div className="hero__media">
+              <div className="hero__photo-frame">
+                <img src={hero.photo} alt={`Retrato profesional de ${hero.name}`} />
+              </div>
             </div>
-          </div>
+          )}
         </header>
 
         <main>

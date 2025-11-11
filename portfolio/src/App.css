@@ -25,6 +25,14 @@
   border: 1px solid rgba(148, 163, 184, 0.2);
 }
 
+.hero--no-photo {
+  grid-template-columns: 1fr;
+}
+
+.hero--no-photo .hero__content {
+  grid-column: span 12;
+}
+
 .hero__content {
   grid-column: span 8;
   display: flex;
