@@ -140,19 +140,6 @@ const profile = {
           repo: '',
           demo: ''
         }
-      },
-      {
-        name: 'Panel de Gestión de Incidencias TI',
-        description:
-          'Proyecto académico que permite registrar, priorizar y dar seguimiento a incidencias técnicas dentro de un equipo de soporte.',
-        technologies: ['Laravel', 'MySQL', 'Bootstrap', 'JavaScript'],
-        role: 'Desarrollador full-stack',
-        impact:
-          'Automatizó el seguimiento de tickets y la generación de reportes, reduciendo tiempos de respuesta del equipo de soporte.',
-        links: {
-          repo: 'https://github.com/Nelsutro/ticketing-system',
-          demo: ''
-        }
       }
     ]
   },
