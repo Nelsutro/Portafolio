@@ -71,13 +71,13 @@ const profile = {
     ],
     experience: [
       {
-        role: 'Encargado de Gestión Web',
-        company: 'Empresa comercial de repuestos automovilísticos',
+        role: 'Desarrollador Full-Stack (Práctica Profesional)',
+        company: 'Informática Arcos',
         period: 'Ene 2024 – Mar 2024',
         details: [
-          'Administré y configuré una tienda online con Jumpseller, asegurando catálogos actualizados y experiencia fluida.',
-          'Optimicé la organización visual y la estructura de navegación del sitio para mejorar la interacción de los usuarios.',
-          'Facilité la gestión de inventario mediante procesos estandarizados y documentación clara.'
+          'Desarrollé una plataforma web completa para gestión y emisión de facturas empresariales dirigida a clientes.',
+          'Implementé el frontend con Angular y el backend con Laravel PHP, integrando MySQL como base de datos principal.',
+          'Integré Flow.cl para procesamiento de pagos y desplegué la aplicación en cPanel para producción.'
         ]
       },
       {
@@ -87,14 +87,15 @@ const profile = {
         details: [
           'Diseñé e implementé una plataforma web para profesionales del área TI utilizando React, Node.js y Express.',
           'Integré MongoDB como base de datos NoSQL, aplicando el patrón MVC y control de versiones con Git/GitHub.',
-          'Coordine el desarrollo bajo Kanban, elaborando tableros en Trello y revisiones de avance regulares.'
+          'Coordine el desarrollo bajo Kanban, elaborando tableros en Trello y revisiones de avance regulares.',
+          'implementé un modelo de IA de Gemini para realizar el cálculo de las tarifas.'
         ]
       }
     ],
     highlights: [
-      'Experiencia práctica en desarrollo full-stack con React, Node.js y MongoDB',
-      'Aplicación de Scrum y Kanban para gestionar proyectos académicos y laborales',
-      'Foco en mejorar experiencias de usuario y procesos digitales en entornos reales'
+      'Experiencia práctica en desarrollo full-stack con Angular, Laravel y MySQL',
+      'Integración exitosa de sistemas de pago y despliegue en producción',
+      'Aplicación de metodologías ágiles para gestionar proyectos académicos y laborales'
     ]
   },
   projects: {
@@ -112,6 +113,19 @@ const profile = {
         links: {
           repo: 'https://github.com/Nelsutro/PreciFy-Final',
           demo: ''
+        }
+      },
+      {
+        name: 'Plataforma de Gestión de Facturas · Informática Arcos',
+        description:
+          'Sistema web completo para que empresas gestionen y emitan facturas a sus clientes, con procesamiento de pagos integrado.',
+        technologies: ['Angular', 'Laravel PHP', 'MySQL', 'phpMyAdmin', 'Flow.cl', 'cPanel'],
+        role: 'Desarrollador full-stack',
+        impact:
+          'Automatizó el proceso de facturación empresarial y habilitó pagos en línea, reduciendo tiempos administrativos y mejorando la experiencia del cliente.',
+        links: {
+          repo: 'https://github.com/Nelsutro/FactuFast',
+          demo: 'https://factufast.cl'
         }
       },
       {
@@ -143,18 +157,18 @@ const profile = {
     ]
   },
   internship: {
-    company: 'Empresa comercial de repuestos automovilísticos',
+    company: 'Informática Arcos',
     description:
-      'Negocio orientado a la venta de repuestos, con foco en la transformación digital de su canal e-commerce.',
+      'Empresa especializada en soluciones informáticas y desarrollo de software para la gestión empresarial y facturación digital.',
     activities: [
-      'Administración diaria del catálogo y stock en la plataforma Jumpseller.',
-      'Configuración de páginas y estructura visual para optimizar la experiencia del cliente.',
-      'Coordinación con el equipo comercial para sincronizar precios y promociones.'
+      'Desarrollo completo de plataforma web para gestión de facturas usando Angular y Laravel PHP.',
+      'Diseño e implementación de base de datos MySQL con phpMyAdmin para administración.',
+      'Integración de pasarela de pagos Flow.cl y despliegue en servidor cPanel.'
     ],
     learnings: [
-      'Importancia de la comunicación continua con áreas comerciales.',
-      'Creación de flujos de trabajo reproducibles para mantener tiendas online actualizadas.',
-      'Ajuste de interfaces pensando en usabilidad y objetivos de negocio.'
+      'Experiencia práctica integrando sistemas de pago en aplicaciones web.',
+      'Desarrollo full-stack completo desde diseño de base de datos hasta despliegue.',
+      'Colaboración con equipos para definir requerimientos funcionales y técnicos.'
     ]
   },
   services: {
@@ -183,7 +197,7 @@ const profile = {
     greeting: 'Estimado/a reclutador/a,',
     paragraphs: [
       'Como estudiante de último año de Ingeniería en Computación e Informática me interesa sumarme a un equipo donde pueda contribuir con soluciones full-stack y seguir desarrollando mis habilidades. Me destaco por abordar problemas de manera estructurada, priorizando la experiencia de usuario y la mantenibilidad del código.',
-      'Durante mi experiencia como encargado de gestión web administré una tienda e-commerce completa, asegurando catálogos vigentes y mejoras en la navegación. Además, en mi proyecto de título PreciFy lideré el desarrollo de un MVP utilizando React y Node.js, organizando el trabajo con Scrum y controlando versiones con Git.',
+      'Durante mi práctica profesional en Informática Arcos desarrollé una plataforma completa de facturación empresarial usando Angular y Laravel PHP, integrando Flow.cl para pagos y desplegando en cPanel. Además, en mi proyecto de título PreciFy lideré el desarrollo de un MVP utilizando React y Node.js, organizando el trabajo con metodologías ágiles y control de versiones con Git.',
       'Estoy convencido de que mi motivación, responsabilidad y capacidad de aprendizaje pueden aportar valor a su organización. Agradezco el tiempo dedicado a revisar mi portafolio y quedo atento a la posibilidad de conversar sobre cómo puedo contribuir a sus desafíos tecnológicos.'
     ],
     closing: 'Saludos cordiales,',
