@@ -150,7 +150,7 @@ const profile = {
   internship: {
     company: 'Informática Arcos',
     description:
-      'Empresa especializada en soluciones informáticas y desarrollo de software para la gestión empresarial y facturación digital.',
+      'Empresa  especializada en ofrecer soluciones tecnológicas personalizadas a empresas en todo el mundo.',
     activities: [
       'Desarrollo completo de plataforma web para gestión de facturas usando Angular y Laravel PHP.',
       'Diseño e implementación de base de datos MySQL con phpMyAdmin para administración.',
