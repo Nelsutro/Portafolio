@@ -3,7 +3,7 @@ const profile = {
     badge: 'Portafolio Profesional',
     name: 'Nelson Erices Briones',
     title: 'Desarrollador de Software · Fullstack Jr.',
-    subtitle: 'Ingeniero en Computación e Informática en formación',
+    subtitle: 'Ingeniero en Computación e Informática',
     summary:
       'Estudiante de último año de Ingeniería en Computación e Informática en la Universidad Andrés Bello. Tengo experiencia construyendo soluciones web y backend con JavaScript, React, Node.js y MongoDB, aplicando patrones como MVC y metodologías ágiles como Scrum. Busco integrarme a un equipo donde aportar valor, seguir aprendiendo y consolidar mi carrera profesional.',
     location: 'Santiago, Chile',
@@ -66,14 +66,18 @@ const profile = {
         institution: 'Universidad Andrés Bello',
         degree: 'Ingeniería en Computación e Informática',
         period: 'Mar 2022 – Dic 2025 (En curso)',
-        details: ['Formación orientada a desarrollo de software, bases de datos y arquitectura de sistemas']
+        details: [
+          'Mención en desarrollo de software, transformación digital y tecnologías disruptivas.',
+          'Asignaturas destacadas: Desarrollo Web y Móvil, Minería de Datos, Ciberseguridad, Ingeniería de Software I y II, Infraestructura TI, Paradigmas de Programación, Bases de Datos.',
+          'Proyecto de Título: Plataforma “PreciFy” para análisis de tarifas del mercado tecnológico chileno.'
+        ]
       }
     ],
     experience: [
       {
         role: 'Desarrollador Full-Stack (Práctica Profesional)',
         company: 'Informática Arcos',
-        period: 'Ene 2024 – Mar 2024',
+        period: 'Ago 2025 – Nov 2025',
         details: [
           'Desarrollé una plataforma web completa para gestión y emisión de facturas empresariales dirigida a clientes.',
           'Implementé el frontend con Angular y el backend con Laravel PHP, integrando MySQL como base de datos principal.',
