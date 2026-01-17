@@ -5,7 +5,7 @@ const profile = {
     title: 'Desarrollador de Software · Fullstack Jr.',
     subtitle: 'Ingeniero en Computación e Informática',
     summary:
-      'Estudiante de último año de Ingeniería en Computación e Informática en la Universidad Andrés Bello. Tengo experiencia construyendo soluciones web y backend con JavaScript, React, Node.js y MongoDB, aplicando patrones como MVC y metodologías ágiles como Scrum. Busco integrarme a un equipo donde aportar valor, seguir aprendiendo y consolidar mi carrera profesional.',
+      'Soy Ingeniero en Computación e Informática. Tengo experiencia construyendo soluciones web y backend con JavaScript, React, Node.js y MongoDB, aplicando patrones como MVC y metodologías ágiles como Scrum. Busco integrarme a un equipo donde aportar valor, seguir aprendiendo y consolidar mi carrera profesional.',
     location: 'Santiago, Chile',
     contacts: [
       { type: 'Correo', value: 'nelsonerices28@gmail.com', url: 'mailto:nelsonerices28@gmail.com' },
