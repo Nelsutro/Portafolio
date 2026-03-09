@@ -143,7 +143,7 @@ function App() {
                     )}
                     {project.links.demo && (
                       <a href={project.links.demo} target="_blank" rel="noreferrer">
-                        Ver demo
+                        Ver web
                       </a>
                     )}
                   </div>

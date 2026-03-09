@@ -42,7 +42,12 @@ const profile = {
       'Postman',
       'Trello',
       'Visual Studio Code',
-      'XAMPP'
+      'XAMPP',
+      'Vercel',
+      'cPanel',
+      'Flow.cl',
+      'Render',
+      'shopify storefront',
     ],
     softSkills: [
       'Trabajo en equipo',
@@ -94,12 +99,23 @@ const profile = {
           'Coordine el desarrollo bajo Kanban, elaborando tableros en Trello y revisiones de avance regulares.',
           'implementé un modelo de IA de Gemini para realizar el cálculo de las tarifas.'
         ]
+      },
+      {
+        role: 'Desarrollador Web – Gestión de E-commerce',
+        company: 'Facilyb SpA',
+        period: 'Dic 2025 – Actualidad',
+        details: [
+          'Desarrollo de tienda online de productos sostenibles',
+          'Configuración y optimización de catálogos digitales utilizando Shopify.',
+          'Uso eficiente de storefront API y Admin API para mejorar la experiencia de compra y gestión de inventario.'
+        ]
       }
     ],
     highlights: [
       'Experiencia práctica en desarrollo full-stack con Angular, Laravel y MySQL',
       'Integración exitosa de sistemas de pago y despliegue en producción',
-      'Aplicación de metodologías ágiles para gestionar proyectos académicos y laborales'
+      'Aplicación de metodologías ágiles para gestionar proyectos académicos y laborales',
+      'integración de IA para análisis de tarifas en proyecto de título'
     ]
   },
   projects: {
@@ -143,6 +159,19 @@ const profile = {
         links: {
           repo: '',
           demo: ''
+        }
+      },
+      {
+        name: 'Tienda Online de Productos Sostenibles',
+        description:
+          'Desarrollo de una tienda online utilizando Shopify, con enfoque en productos sostenibles y experiencia de compra optimizada.',
+        technologies: ['Shopify', 'next.js', 'storefront API', 'Admin API', 'express', 'vercel', 'render'],
+        role: 'Desarrollador Web – Gestión de E-commerce',
+        impact:
+          'Contribuí al diseño y desarrollo de una tienda online con enfoque en productos sostenibles, mejorando la experiencia de compra y gestión de inventario.',
+        links: {
+          repo: '',
+          demo: 'facilyb.vercel.app'
         }
       }
     ]
