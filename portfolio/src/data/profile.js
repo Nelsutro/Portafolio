@@ -70,7 +70,7 @@ const profile = {
       {
         institution: 'Universidad Andrés Bello',
         degree: 'Ingeniería en Computación e Informática',
-        period: 'Mar 2022 – Dic 2025 (En curso)',
+        period: 'Mar 2022 – Dic 2025',
         details: [
           'Mención en desarrollo de software, transformación digital y tecnologías disruptivas.',
           'Asignaturas destacadas: Desarrollo Web y Móvil, Minería de Datos, Ciberseguridad, Ingeniería de Software I y II, Infraestructura TI, Paradigmas de Programación, Bases de Datos.',
